@@ -29,10 +29,11 @@ cp /ctx/custom/flatpaks/*.preinstall /etc/flatpak/preinstall.d/
 
 echo "::endgroup::"
 
-echo "::group:: Install Packages"
+echo "::group:: Packages"
 
 # Install packages using dnf5
-# Example: dnf5 install -y tmux
+dnf5 install -y krusader
+dnf5 remove -y fcitx
 
 # Example using COPR with isolated pattern:
 # copr_install_isolated "ublue-os/staging" package-name
