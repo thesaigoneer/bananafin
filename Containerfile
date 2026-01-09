@@ -45,7 +45,7 @@ COPY --from=ghcr.io/projectbluefin/common:latest /system_files /oci/common
 COPY --from=ghcr.io/ublue-os/brew:latest /system_files /oci/brew
 
 # Base Image - KDE included
-FROM ghcr.io/ublue-os/aurora:latest
+FROM ghcr.io/ublue-os/kinoite-main:latest
 
 ## Alternative base images, no desktop included (uncomment to use):
 # FROM ghcr.io/ublue-os/base-main:latest    
