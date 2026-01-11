@@ -2,16 +2,21 @@
 
 A template, building custom bootc operating system images based on the lessons from [Universal Blue](https://universal-blue.org/) and [Bluefin](https://projectbluefin.io). I called it Aurorix-Saigon, bcs the hard work has been done with Aurora already and all my spins have Asterix & Obelix inspired names..
 
-This template uses the **multi-stage build architecture** from , combining resources from multiple OCI containers for modularity and maintainability. See the [Architecture](#architecture) section below for details.
+This template uses the **multi-stage build architecture** from , combining resources from multiple OCI containers for modularity and maintainability.
 
-**Unlike previous templates, you are not modifying Bluefin and making changes.**: You are assembling your own Aurora in the same exact way that Bluefin, Aurora, and Bluefin LTS are built. This is way more flexible and better for everyone since the image-agnostic and desktop things we love about Bluefin lives in @projectbluefin/common. 
+**Unlike previous templates, you are not modifying Bluefin and making changes.**: I assembled my own Aurora in the same exact way that Bluefin, Aurora, and Bluefin LTS are built. This is way more flexible and better for everyone since the image-agnostic and desktop things we love about Bluefin lives in @projectbluefin/common. 
 
  Instead, you create your own OS repository based on this template, allowing full customization while leveraging Bluefin's robust build system and shared components.
 
 > Be the one who moves, not the one who is moved.
 
-## Love Your Image? Let's Go to Production
+So, check out the following files to see what has changed, removed and added:
 
+  /build/10-build.sh:                    removing a number of applications I personally don't need or want
+  /custom/brew/default.Brewfile:         added a number of cli applications to install after first login
+  /custom/flatpaks/default.preinstall    all flatpaks that will be installed at first login
+
+## Love Your Image? Let's Go to Production
 
 ## Detailed Guides
 
