@@ -44,8 +44,9 @@ dnf5 remove -y kdeconnectd
 dnf5 remove -y krb5-workstation
 dnf5 remove -y ksystemlog
 dnf5 remove -y kwallet
+dnf5 remove -y pam-kwallet
 dnf5 remove -y ptyxis
-dnf5 remove -y sunshine
+dnf5 remove -y Sunshine
 
 # Example using COPR with isolated pattern:
 # copr_install_isolated "ublue-os/staging" package-name
