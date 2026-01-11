@@ -12,9 +12,11 @@ This template uses the **multi-stage build architecture** from , combining resou
 
 So, check out the following files to see what has changed, removed and added:
 
-  /build/10-build.sh:                    removing a number of applications I personally don't need or want
-  /custom/brew/default.Brewfile:         added a number of cli applications to install after first login
-  /custom/flatpaks/default.preinstall    all flatpaks that will be installed at first login
+    /build/10-build.sh:                    removing a number of applications I personally don't need or want
+    
+    /custom/brew/default.Brewfile:         added a number of cli applications to install after first login
+    
+    /custom/flatpaks/default.preinstall    all flatpaks that will be installed at first login
 
 ## Love Your Image? Let's Go to Production
 
