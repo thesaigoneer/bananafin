@@ -39,11 +39,9 @@ dnf5 remove -y input-remapper
 dnf5 remove -y kcm-fcitx5
 dnf5 remove -y kdebugsettings
 dnf5 remove -y kde-connect
-dnf5 remove -y kde-connect-libs
-dnf5 remove -y kdeconnectd
 dnf5 remove -y krb5-workstation
 dnf5 remove -y ksystemlog
-dnf5 remove -y kwallet
+dnf5 remove -y kwalletmanager5
 dnf5 remove -y pam-kwallet
 dnf5 remove -y ptyxis
 dnf5 remove -y Sunshine
