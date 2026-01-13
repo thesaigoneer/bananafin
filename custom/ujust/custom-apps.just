@@ -41,11 +41,11 @@ remove-default-flatpaks:
     #!/usr/bin/env bash
     flatpak remove org.kde.kclock -y
     flatpak remove io.github.flattool.Warehouse -y
-    flatpak remove io.missioncenter.Missioncenter -y
+    flatpak remove io.missioncenter.MissionCenter -y
     flatpak remove org.deskflow.deskflow -y
     flatpak remove org.fedoraproject.MediaWriter -y
     flatpak remove org.fkoehler.KTailctl -y
-    flatpak remove org.gnome.Dejadup -y
+    flatpak remove org.gnome.DejaDup -y
     flatpak remove org.kde.haruna -y
     flatpak remove org.kde.kcalc -y
     flatpak remove org.kde.kontact -y
