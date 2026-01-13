@@ -2,17 +2,11 @@
 
 A template, building custom bootc operating system images based on the lessons from [Universal Blue](https://universal-blue.org/) and [Bluefin](https://projectbluefin.io). 
 
-I called it Aurorix-Saigon, bcs the hard work has been done with Aurora already and all my spins have Asterix & Obelix inspired names.
+I called it Aurorix-Saigon, bcs the hard work has been done with Aurora already and all my spins have Asterix & Obelix inspired names. **Unlike previous templates, you are not modifying Bluefin and making changes.** I assembled my own Aurora in the same exact way that Bluefin, Aurora, and Bluefin LTS are built. This is way more flexible and better for everyone since the image-agnostic and desktop things from Bluefin live in @projectbluefin/common. 
 
-**Unlike previous templates, you are not modifying Bluefin and making changes.** I assembled my own Aurora in the same exact way that Bluefin, Aurora, and Bluefin LTS are built. 
+So, I created my own OS repository based on this template and the **latest version of Aurora**, allowing full customization while leveraging Bluefin's robust build system and shared components.
 
-This is way more flexible and better for everyone since the image-agnostic and desktop things from Bluefin live in @projectbluefin/common. 
-
-Instead, I created my own OS repository based on this template and the **latest version of Aurora**, allowing full customization while leveraging Bluefin's robust build system and shared components.
-
-> ### Be the one who moves, not the one who is moved
-
-So, check out the following files to see what has changed, removed and added:
+Check out the following files to see what has changed, removed and added:
 
     /build/10-build.sh:                    edited base applications of Aurora
     
@@ -65,6 +59,7 @@ The last two commands will brew your cli apps and nerd fonts so they are ready t
 Obviously you can brew a lot more, remove casks or pour more. Remove or add flatpaks through Bazaar. These additions are just a quick headstart!
 
 ## Final remarks
+
 Feel free to use this build and configs as you like. 
 
 I do not, however, imply any form of support or ongoing maintenance. And of course, you use them entirely at your own risk.
