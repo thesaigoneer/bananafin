@@ -20,7 +20,7 @@ So, check out the following files to see what has changed, removed and added:
     
     /custom/flatpaks/default.preinstall    flatpaks to be installed at first login
 
-## Steps to follow:
+## How to Get There
 
 ### First install
 
@@ -28,7 +28,6 @@ So, check out the following files to see what has changed, removed and added:
 
 
 ## Detailed Guides
-l
 - [Homebrew/Brewfiles](custom/brew/README.md) - Runtime package management
 - [Flatpak Preinstall](custom/flatpaks/README.md) - GUI application setup
 - [ujust Commands](custom/ujust/README.md) - User convenience commands
