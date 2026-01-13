@@ -63,6 +63,14 @@ The last two commands will brew your cli apps and nerd fonts so they are ready t
 
 Obviously you can brew a lot more, remove casks or pour more. Remove or add flatpaks through Bazaar. These additions are just a quick headstart!
 
+Aurora comes with a number of default applications installed through flatpak. I like to clean them out (some of them i don't use or are Gnome applications), so I wrote a ujust command for that:
+
+    - in the cli run 'ujust remove-deafult-flatpaks'
+
+After that you'll be left with my choice. And don't forget:
+
+    - in the cli run 'ujust aurora-cli'  # for all your additional cli bling and functionality
+
 ## Final remarks
 
 Feel free to use this build and configs as you like. 
