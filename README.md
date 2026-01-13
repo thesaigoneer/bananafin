@@ -8,7 +8,7 @@ This template uses the **multi-stage build architecture** from , combining resou
 
  Instead, you create your own OS repository based on this template, allowing full customization while leveraging Bluefin's robust build system and shared components.
 
-> Be the one who moves, not the one who is moved.
+### > Be the one who moves, not the one who is moved.
 
 So, check out the following files to see what has changed, removed and added:
 
