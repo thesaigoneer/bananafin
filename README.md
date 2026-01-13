@@ -1,4 +1,5 @@
 # Aurorix-Saigon
+<img width="1920" height="1080" alt="Screenshot_20260113_152113" src="https://github.com/user-attachments/assets/d28d3033-eca6-459c-a896-2ed3405e476c" />
 
 A template, building custom bootc operating system images based on the lessons from [Universal Blue](https://universal-blue.org/) and [Bluefin](https://projectbluefin.io). 
 
