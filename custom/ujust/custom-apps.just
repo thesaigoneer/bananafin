@@ -35,6 +35,25 @@ install-all-brew:
     brew bundle --file /usr/share/ublue-os/homebrew/development.Brewfile
     brew bundle --file /usr/share/ublue-os/homebrew/fonts.Brewfile
 
+# Remove a number of default flatpaks
+[group('Apps')]
+remove-default-flatpaks:
+    #!/usr/bin/env bash
+    flatpak remove org.kde.kclock -y
+    flatpak remove io.github.flattool.Warehouse -y
+    flatpak remove io.missioncenter.Missioncenter -y
+    flatpak remove org.deskflow.deskflow -y
+    flatpak remove org.fedoraproject.MediaWriter -y
+    flatpak remove org.fkoehler.KTailctl -y
+    flatpak remove org.gnome.Dejadup -y
+    flatpak remove org.kde.haruna -y
+    flatpak remove org.kde.kcalc -y
+    flatpak remove org.kde.kontact -y
+    flatpak remove org.kde.kweather -y
+    flatpak remove org.kde.skanpage -y
+    flatpak remove org.mozilla.Thunderbird -y
+    flatpak remove org.mozilla.firefox -y
+
 # Install JetBrains Toolbox for managing JetBrains IDEs
 [group('Apps')]
 install-jetbrains-toolbox:
