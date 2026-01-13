@@ -2,11 +2,11 @@
 
 A template, building custom bootc operating system images based on the lessons from [Universal Blue](https://universal-blue.org/) and [Bluefin](https://projectbluefin.io). 
 
-I called it Aurorix-Saigon, bcs the hard work has been done with Aurora already and all my spins have Asterix & Obelix inspired names..
+I called it Aurorix-Saigon, bcs the hard work has been done with Aurora already and all my spins have Asterix & Obelix inspired names.
 
-**Unlike previous templates, you are not modifying Bluefin and making changes.**: I assembled my own Aurora in the same exact way that Bluefin, Aurora, and Bluefin LTS are built. 
+**Unlike previous templates, you are not modifying Bluefin and making changes.** I assembled my own Aurora in the same exact way that Bluefin, Aurora, and Bluefin LTS are built. 
 
-This is way more flexible and better for everyone since the image-agnostic and desktop things we love about Bluefin lives in @projectbluefin/common. 
+This is way more flexible and better for everyone since the image-agnostic and desktop things we love from Bluefin live in @projectbluefin/common. 
 
 Instead, you create your own OS repository based on this template, allowing full customization while leveraging Bluefin's robust build system and shared components.
 
@@ -28,19 +28,15 @@ So, check out the following files to see what has changed, removed and added:
 
     - Install Aurora by using the available iso at https://getaurora.dev/en
 
+### Rebase to Aurorix
 
+    - sudo bootc switch ghcr.io/thesaigoneer/aurorix-saigon:latest
+    
 ## Detailed Guides
 - [Homebrew/Brewfiles](custom/brew/README.md) - Runtime package management
 - [Flatpak Preinstall](custom/flatpaks/README.md) - GUI application setup
 - [ujust Commands](custom/ujust/README.md) - User convenience commands
 - [Build Scripts](build/README.md) - Build-time customization
-
-### Benefits of This Architecture
-
-- **Modularity**: Compose your image from reusable OCI containers
-- **Maintainability**: Update shared components independently
-- **Reproducibility**: Renovate automatically updates OCI tags to SHA digests
-- **Consistency**: Share components across Bluefin, Aurora, and custom images
 
 ## Community
 
@@ -51,5 +47,4 @@ So, check out the following files to see what has changed, removed and added:
 
 - [Universal Blue Documentation](https://universal-blue.org/)
 - [bootc Documentation](https://containers.github.io/bootc/)
-- [Video Tutorial by TesterTech](https://www.youtube.com/watch?v=IxBl11Zmq5wE)
 
