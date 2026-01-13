@@ -20,7 +20,12 @@ So, check out the following files to see what has changed, removed and added:
     
     /custom/flatpaks/default.preinstall    flatpaks to be installed at first login
 
-## Love Your Image? Let's Go to Production
+## Steps to follow:
+
+### First install
+
+    Install Aurora by using the available iso at https://getaurora.dev/en
+
 
 ## Detailed Guides
 l
